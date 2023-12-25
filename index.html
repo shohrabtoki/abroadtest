@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AbroadApp</title>
     <!-- Link to Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
@@ -38,10 +37,22 @@
 
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a  class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="logo2.png" class="h-8" alt=" Logo" />
+            <a href="https://abroadapp.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="logo2.png" class="h-8" alt="Flowbite Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">AbroadApp</span>
             </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <!-- Adjust the class names according to your Tailwind CSS setup -->
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -50,7 +61,7 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
-                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Empowering Dreams Worldwide</h1>
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Empowring Dreams Worldwide</h1>
                 <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">On a mission to ensure every student has equitable access to global education.</p>
                 <!-- <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-custom-color hover:bg-custom-hover-color focus:ring-4 focus:ring-custom-focus-color dark:focus:ring-custom-dark-focus-color">
                     Start your application
@@ -58,11 +69,12 @@
                         <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                     </svg>
                 </a> -->
-                <a href="#get-notified-section">
+                <a href="https://tally.so/r/wd97Zq">
                     <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-                      Get notified
+                      Start your application
                     </button>
-                  </a>           
+                  </a>
+            </div>               
         </div>
     </section>
 
@@ -71,20 +83,10 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div class="max-w-screen-md mb-8 lg:mb-16">
-                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Applying Abroad Made Simple. 
-                    One Platform for All.</h2>
-                <p class="text-gray-500 sm:text-xl dark:text-gray-400">AbroadApp redefines simplicity in global applications, offering a unified platform for students, recruiters, and schools alike. No more navigating multiple systems – our streamlined approach ensures a seamless experience for everyone involved.</p>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Applying Abroad Made Simple.</h2>
+                <p class="text-gray-500 sm:text-xl dark:text-gray-400">AbroadApp simplifies the global application process, providing a unified platform for students, recruiters, and schools. With our streamlined approach, applying abroad is now as simple as using one profile for multiple schools.</p>
             </div>
             <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-
-                 <div>
-                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
-                    </div>
-                    <h3 class="mb-2 text-xl font-bold dark:text-white">Student</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Discover tailored study programs, scholarships, and seamless international education journeys with AbroadApp.</p>
-                </div>
-                
                 <div>
                     <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
@@ -92,7 +94,13 @@
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Recruiter</h3>
                     <p class="text-gray-500 dark:text-gray-400"> Harness the power of AbroadApp to seamlessly manage your recruitment process from start to finish.</p>
                 </div>
-          
+                <div>
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Student</h3>
+                    <p class="text-gray-500 dark:text-gray-400">Discover tailored study programs, scholarships, and seamless international education journeys with AbroadApp.</p>
+                </div>
                 <div>
                     <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                         <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg>                    
@@ -104,24 +112,159 @@
         </div>
       </section>
 
-      <section id="get-notified-section" class="bg-white dark:bg-gray-900">
 
+    <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Get notified on launch</h2>
-            <iframe data-tally-src="https://tally.so/embed/mO7OPA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="228" frameborder="0" marginheight="0" marginwidth="0" title="Get notified on launch"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script></div>
+            <div class="mx-auto max-w-screen-sm text-center">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">How Does It Work?</h2>
+                <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">A step-by-step explanation is provided below to guide you through the process.</p>
+            </div>
+            
+    <ol class="relative border-s border-gray-200 dark:border-gray-700 flex flex-col mx-auto max-w-screen-md">
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 1</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Create a Profile </h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Create your profile, and allow AbroadApp to guide you through the the process.</p>
+            </div>
+        </li>
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 2</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Program and School Selection</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Choose your program with the assistance of our AI recommendation system.</p>
+            </div>
+        </li>
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 3</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Submit Your Application</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Finalize your profile, upload documents, pay the application fee, and let the AbroadApp team handle your submission for the best shot at admission success.</p>
+            </div>
+        </li>
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 4</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Receive Your Letter of Offer</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Upon review, if eligible and the program is open, you'll get a conditional offer letter.</p>
+            </div>
+        </li>
+
+        <!-- Add similar structure for other timeline items -->
+
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 5</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Pay Your Tuition Deposit.</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Finalize your enrollment by submitting the required tuition deposit payment as specified in the Letter of Offer.</p>
+            </div>
+        </li>
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 6</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Receive your Letter of Acceptance.</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Upon receiving your tuition deposit and required documents as specified in the Letter of Offer, you'll swiftly receive your Letter of Acceptance.</p>
+            </div>
+        </li>
+
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 7</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Start Your Visa Application</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Count on AbroadApp's certified immigration consultants to guide you through the study visa application process, ensuring the best chances of success.</p>
+            </div>
+        </li>
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 8</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Register and Begin Your Program</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Confirm your study visa with AbroadApp, book your tickets, consult our experts for pre-departure and post-landing queries, enroll in classes, and embark on your academic journey abroad.</p>
+            </div>
+        </li>
+        <li class="mb-10 ms-4 flex items-start">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <div class="ml-4">
+                <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Step 9</time>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Tap into AbroadApp's Career Coaching</h3>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Upon arrival, connect with our career coach to receive guidance and support in navigating and thriving in your new international environment.</p>
+            </div>
+        </li>
+    </ol>
+    
+</section>
+
+      <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Start Your Application Today</h2>
+                <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Get free initial assessment from our experts.</p>
+                <a href="#" class="text-white bg-blue-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800">Apply Here</a>
+            </div>
+        </div>
     </section>
+    
+ 
+
 
     <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
         <div class="mx-auto max-w-screen-xl">
             <div class="md:flex md:justify-between">
-                
+                <div class="mb-6 md:mb-0">
+                    <a href="https://abroadapp.com" class="flex items-center">
+                        <img src="logo2.png" class="mr-3 h-8" alt="AbroadApp Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">AbroadApp</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                        <ul class="text-gray-600 dark:text-gray-400">
+                            <li class="mb-4">
+                                <a href="about.html" class="hover:underline">About</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="hover:underline">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                        <ul class="text-gray-600 dark:text-gray-400">
+                            <li class="mb-4">
+                                <a href="https://www.facebook.com/abroadappofficial/" class="hover:underline ">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/groups/abroadapp" class="hover:underline">Facebook Group</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <ul class="text-gray-600 dark:text-gray-400">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
                 <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://abroadapp.com" class="hover:underline">AbroadApp™</a>. All Rights Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-                    <a href="https://www.facebook.com/abroadappofficial" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <a href="https://www.facebook.com/abroadappofficial/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                     </a>
                     <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
